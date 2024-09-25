@@ -19,4 +19,8 @@ public class Filme {
     double pegaMedia() {
         return somaDasAvaliacao / totalDeAvaliacoes;
     }
+
+    int getTotalDeAvaliacoes(){
+        return totalDeAvaliacoes;
+    }
 }
