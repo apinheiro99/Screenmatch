@@ -66,6 +66,7 @@ public class Principal {
         System.out.println("Primeiro filme: " + listaDeFilmes.get(0).getNome());
 
         System.out.println(listaDeFilmes);
+        System.out.println("toString filme: " + listaDeFilmes.get(0).toString());
 
     }
 }
